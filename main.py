@@ -23,11 +23,6 @@ def FileList_script():
 
 
 @eel.expose
-def IDnJsonResults2Excel_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\IDnJsonResults2Excel.bat")
-
-
-@eel.expose
 def Jsons2Excel_script():
     os.startfile("C:\\QCCenter\\BatchFiles\\Jsons2Excel.bat")
 
@@ -48,48 +43,18 @@ def PDF2JPG_script():
 
 
 @eel.expose
-def POAnJsonResults2Excel_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\POAnJsonResults2Excel.bat")
-
-
-@eel.expose
-def SendMail_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\SendMail.bat")
-
-
-@eel.expose
-def UpdateTool_script():
-    os.startfile("N:\\Images\\Shahaf\\Projects\\ToolBoxUpdater\\ToolBoxUpdater.bat")
-
-
-@eel.expose
-def JsonAge2Excel_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\JsonAge2Excel.bat")
-
-
-@eel.expose
-def JsonFaceLiveness2Excel_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\JsonFaceLiveness2Excel.bat")
-
-
-@eel.expose
 def DoubleDisplay_script():
     os.startfile("C:\\QCCenter\\BatchFiles\\DoubleDisplay.bat")
 
 
 @eel.expose
-def QCPrep_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\QCPrep.bat")
-
-
-@eel.expose
-def MoveFiles_script():
-    os.startfile("C:\\QCCenter\\BatchFiles\\MoveFiles.bat")
-
-
-@eel.expose
 def JPEGConverter_script():
     os.startfile("C:\\QCCenter\\BatchFiles\\JPEGConverter.bat")
+
+
+@eel.expose
+def QCPrep_script():
+    os.startfile("C:\\QCCenter\\BatchFiles\\QCPrep.bat")
 
 
 @eel.expose
@@ -113,6 +78,11 @@ def DBRemover_script():
 
 
 @eel.expose
+def Condenser_script():
+    os.startfile("C:\\QCCenter\\BatchFiles\\Condenser.bat")
+
+
+@eel.expose
 def ImageCollector_script():
     os.startfile("N:\\Images\\Nadav\\scripts\\imgcl 13.06.21\\ImageCollector.exe")
 
@@ -133,8 +103,47 @@ def FilesToSubDirectories_script():
 
 
 @eel.expose
+def MoveFiles_script():
+    os.startfile("C:\\QCCenter\\BatchFiles\\MoveFiles.bat")
+
+
+@eel.expose
+def QualityTool_script():
+    os.startfile("C:\\QCCenter\\BatchFiles\\QualityControl.lnk")
+
+
+@eel.expose
+def SendMail_script():
+    os.startfile("C:\\QCCenter\\BatchFiles\\SendMail.bat")
+
+
+@eel.expose
+def UpdateTool_script():
+    os.startfile("N:\\Images\\Shahaf\\Projects\\ToolBoxUpdater\\ToolBoxUpdater.bat")
+
+
+@eel.expose
 def TemplateExcelGenerator_script():
-    os.startfile("N:\\Images\\Shahaf\\Projects\\TemplateExcelGenerator")
+    webbrowser.open("N:\\Images\\Shahaf\\Projects\\TemplateExcelGenerator")
+
+# @eel.expose
+# def POAnJsonResults2Excel_script():
+#     os.startfile("C:\\QCCenter\\BatchFiles\\POAnJsonResults2Excel.bat")
+
+
+# @eel.expose
+# def JsonAge2Excel_script():
+#     os.startfile("C:\\QCCenter\\BatchFiles\\JsonAge2Excel.bat")
+
+
+# @eel.expose
+# def JsonFaceLiveness2Excel_script():
+#     os.startfile("C:\\QCCenter\\BatchFiles\\JsonFaceLiveness2Excel.bat")
+
+
+# @eel.expose
+# def IDnJsonResults2Excel_script():
+#     os.startfile("C:\\QCCenter\\BatchFiles\\IDnJsonResults2Excel.bat")
 
 
 try:
